@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "546282241474",
+    "project_id": "reachout-90f21",
+    "storage_bucket": "reachout-90f21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546282241474:android:1d5c317e16897027c92a5b",
+        "android_client_info": {
+          "package_name": "com.example.registration_login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs_jnWejtD7v6S1L24A_SKxl76lauGgPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
