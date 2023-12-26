@@ -13,8 +13,8 @@ class MyButtonsignup extends StatelessWidget {
         padding: const EdgeInsets.all(25),
         margin: const EdgeInsets.symmetric(horizontal: 25),
         decoration: BoxDecoration(
-          color: Colors.black,
-          borderRadius: BorderRadius.circular(8),
+          color: Color.fromARGB(255, 11, 87, 13),
+          borderRadius: BorderRadius.circular(10),
         ),
         child: const Center(
           child: Text(
@@ -22,7 +22,7 @@ class MyButtonsignup extends StatelessWidget {
             style: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,
-              fontSize: 16,
+              fontSize: 24,
             ),
           ),
         ),

@@ -23,10 +23,10 @@ class RegisterPage extends StatelessWidget {
               child: Column(
                 children: [
                   const SizedBox(height: 50),
-                  Icon(
+                  const Icon(
                     Icons.person,
                     size: 100,
-                    color: Colors.grey[800],
+                    color: Color.fromARGB(255, 11, 87, 13),
                   ),
                   const Text(
                     "Welcome, Great to see you",

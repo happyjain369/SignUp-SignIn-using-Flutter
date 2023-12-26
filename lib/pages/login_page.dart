@@ -119,7 +119,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: true,
-      backgroundColor: Colors.grey[300],
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: Center(
           child: Column(
@@ -130,12 +130,13 @@ class _LoginPageState extends State<LoginPage> {
               // logo
               const Icon(
                 Icons.lock,
+                color: Color.fromARGB(255, 11, 87, 13),
                 size: 100,
               ),
               Text(
                 'Welcome back you\'ve been missed!',
                 style: TextStyle(
-                  color: Colors.grey[700],
+                  color: Colors.grey[1000],
                   fontSize: 16,
                 ),
               ),
@@ -162,7 +163,7 @@ class _LoginPageState extends State<LoginPage> {
                   children: [
                     Text(
                       'Forgot Password?',
-                      style: TextStyle(color: Colors.grey[600]),
+                      style: TextStyle(color: Colors.grey[1000]),
                     ),
                   ],
                 ),
@@ -192,7 +193,7 @@ class _LoginPageState extends State<LoginPage> {
                       padding: const EdgeInsets.symmetric(horizontal: 10.0),
                       child: Text(
                         'Or continue with',
-                        style: TextStyle(color: Colors.grey[700]),
+                        style: TextStyle(color: Colors.grey[1000]),
                       ),
                     ),
                     Expanded(
@@ -229,7 +230,7 @@ class _LoginPageState extends State<LoginPage> {
                 children: [
                   Text(
                     'Not a member?',
-                    style: TextStyle(color: Colors.grey[700]),
+                    style: TextStyle(color: Colors.grey[1000]),
                   ),
                   ElevatedButton(
                     child: const Text('Register Now'),
